@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
+</head>
+
+<body>
+<div class="calc-wrap">
+    <div class="results">
+        <div class="bufer"></div>
+       <div class="show-results"><form name="form"><input type="text" name="textview" readonly></form></div> 
+    </div>
+    <!-- top -->
+    <div class="main">
+        <div class="buttons-row1">
+            <button onclick="clean()"><img src="./img/1.1.ac.jpg" alt=""></button>
+            <button onclick="signn()"><img src="./img/1.2.plus-minus.jpg" alt=""></button>
+            <button class="pers1" onclick="persent()"><img src="./img/1.3.percent.jpg" alt=""></button>
+            <button onclick="insert('/')"><img src="./img/1.4.defit.jpg" alt=""></button>
+                
+        </div>
+        <div class="buttons-row1">
+            <button onclick="insert('7')"><img src="./img/2.1.seven.jpg" alt=""></button>
+            <button onclick="insert('8')"><img src="./img/2.2.eight.jpg" alt=""></button>
+            <button onclick="insert('9')"><img src="./img/2.3.nine.jpg" alt=""></button>
+            <button onclick="insert('*')"><img src="./img/2.4.multi.jpg" alt=""></button>
+               
+
+        </div>
+        <div class="buttons-row1">
+            <button onclick="insert('4')"><img src="./img/3.1.fors.jpg" alt=""></button>
+            <button onclick="insert('5')"><img src="./img/3.2.fifth.jpg" alt=""></button>
+            <button onclick="insert('6')"><img src="./img/3.3.six.jpg" alt=""></button>
+            <button onclick="insert('-')"><img src="./img/3.4.minus.jpg" alt=""></button>
+        </div>
+        <div class="buttons-row1">
+            <button onclick="insert('1')"><img src="./img/4.1.one.jpg" alt=""></button>
+            <button onclick="insert('2')"><img src="./img/4.2.two.jpg" alt=""></button>
+            <button onclick="insert('3')"><img src="./img/4.3.three.jpg" alt=""></button>
+            <button onclick="insert('+')"><img src="./img/4.4.plus.jpg" alt=""></button>
+
+        </div>
+        <div class="buttons-row1 buttons-row11">
+            <button onclick="insert('0')" class="zero"><img src="./img/5.1.zero.jpg" alt=""></button>
+            <button onclick="insert('.')"><img src="./img/5.2.coma.jpg" alt=""></button>
+            <button onclick="equal()"><img src="./img/5.3.equal.jpg" alt=""></button>
+            
+
+        </div>
+
+
+
+    </div>
+    <!-- main -->
+
+
+</div>
+
+
+    
+</body>
+</html>
